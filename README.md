@@ -18,8 +18,21 @@ To generate arbitrary-length test vectors, we developed a Python script (`/Pytho
 1. Verifies the correctness of built-in Python functions using official test vectors (also tested in the GVSoC implementation).
 2. Generates plaintext and corresponding ciphertext files with selected lengths (512B, 1kB, 2kB, 4kB, 8kB, 16kB, 32kB).
 
-## Running the Tests
+## Run it yourself
 
+## Prerequisites
+Before proceeding, ensure that:
+- You are running **Ubuntu 22.04** within **WSL**.
+- You have internet access to download dependencies.
+
+## Installation Instructions
+To install all required components, simply execute the following command in your terminal (after making the script executable (chmod +x <path-to-setup_pulp.sh>)):
+
+~~~~~shell
+./setup_pulp.sh
+~~~~~
+
+## Running the Tests
 You can find test directories for each of the four encryption algorithms in the `/tests` folder. To run a test, navigate to the desired algorithm's directory and execute:
 
 ~~~~~shell
