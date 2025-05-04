@@ -26,9 +26,10 @@ Before proceeding, ensure that:
 - You have internet access to download dependencies.
 
 ### Installation Instructions
-To install all required components, simply execute the following command in your terminal (after making the script executable (chmod +x <path-to-setup_pulp.sh>)):
+To install all required components, simply execute the following command in your terminal in the repo folder:
 
 ~~~~~shell
+chmod +x ./setup_pulp.sh
 ./setup_pulp.sh
 ~~~~~
 
