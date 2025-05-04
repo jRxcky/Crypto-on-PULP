@@ -20,19 +20,19 @@ To generate arbitrary-length test vectors, we developed a Python script (`/Pytho
 
 ## Run it yourself
 
-## Prerequisites
+### Prerequisites
 Before proceeding, ensure that:
 - You are running **Ubuntu 22.04** within **WSL**.
 - You have internet access to download dependencies.
 
-## Installation Instructions
+### Installation Instructions
 To install all required components, simply execute the following command in your terminal (after making the script executable (chmod +x <path-to-setup_pulp.sh>)):
 
 ~~~~~shell
 ./setup_pulp.sh
 ~~~~~
 
-## Running the Tests
+### Running the Tests
 You can find test directories for each of the four encryption algorithms in the `/tests` folder. To run a test, navigate to the desired algorithm's directory and execute:
 
 ~~~~~shell
