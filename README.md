@@ -3,6 +3,7 @@
 ### Gaspari Riccardo, Vignati Giulio, Franchi Matteo
 
 This project involves the implementation and performance evaluation of cryptographic algorithms on GVSoC, exploiting the 8-core cluster for parallelized execution.
+[📄 View the Presentation](https://github.com/user/repo/blob/main/presentation.pdf)
 
 ## Cryptographic Algorithms Implemented
 - **AES-256-CTR**
