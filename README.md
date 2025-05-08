@@ -26,7 +26,7 @@ Before proceeding, ensure that:
 - You have internet access to download dependencies.
 
 ### Installation Instructions
-To install all required components, start by cloning the repo in your '/' directory, then simply execute the following command in your terminal in the repo folder:
+To install all required components, start by cloning the repo, then simply execute the following command in your terminal in the repo folder:
 
 ~~~~~shell
 chmod +x ./setup_pulp.sh
