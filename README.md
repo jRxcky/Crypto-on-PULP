@@ -22,7 +22,7 @@ To generate arbitrary-length test vectors, we developed a Python script (`/Pytho
 
 ### Prerequisites
 Before proceeding, ensure that:
-- You are running **Ubuntu 24.04.01** within **WSL** (or virtual machine).
+- You are running **Ubuntu 24.04.1** within **WSL** (or virtual machine).
 - You have internet access to download dependencies.
 
 ### Installation Instructions
