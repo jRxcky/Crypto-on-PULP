@@ -13,14 +13,11 @@ pip install argcomplete pyelftools six prettytable
 deactivate
 
 echo "Cloning PULP SDK..."
+cd
 git clone https://github.com/pulp-platform/pulp-sdk.git
 
 echo "Downloading and extracting PULP RISC-V GNU toolchain..."
-mkdir $HOME/Downloads
-cd $HOME/Downloads
 wget https://github.com/pulp-platform/pulp-riscv-gnu-toolchain/releases/download/v1.0.16/v1.0.16-pulp-riscv-gcc-ubuntu-18.tar.bz2
-mv v1.0.16-pulp-riscv-gcc-ubuntu-18.tar.bz2 $HOME
-cd $HOME
 tar -xvjf v1.0.16-pulp-riscv-gcc-ubuntu-18.tar.bz2
 rm v1.0.16-pulp-riscv-gcc-ubuntu-18.tar.bz2
 
