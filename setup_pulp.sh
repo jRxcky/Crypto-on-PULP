@@ -9,8 +9,7 @@ sudo apt install -y gcc-9 g++-9 cmake python3-pip python3-venv
 echo "Setting up Python virtual environment..."
 python3 -m venv myenv
 source myenv/bin/activate
-pip install six
-sudo apt install python3-prettytable python3-argcomplete python3-pyelftools
+pip install six prettytable argcomplete pyelftools
 deactivate
 
 echo "Cloning PULP SDK..."
