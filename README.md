@@ -35,6 +35,14 @@ chmod +x ./setup_pulp.sh
 ./setup_pulp.sh
 ~~~~~
 
+The next times you access the terminal, just run (inside the repo folder):
+
+~~~~~shell
+export PULP_RISCV_GCC_TOOLCHAIN=$(pwd)/v1.0.16-pulp-riscv-gcc-ubuntu-18
+cd pulp-sdk
+source configs/pulp-open.sh
+~~~~~
+
 ### Running the Tests
 You can find test directories for each of the four encryption algorithms in the `/tests` folder. To run a test, navigate to the desired algorithm's directory and execute:
 
