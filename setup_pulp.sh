@@ -10,7 +10,6 @@ echo "Setting up Python virtual environment..."
 python3 -m venv myenv
 source myenv/bin/activate
 pip install six prettytable argcomplete pyelftools
-deactivate
 
 echo "Cloning PULP SDK..."
 git clone https://github.com/pulp-platform/pulp-sdk.git
@@ -21,8 +20,7 @@ tar -xvjf v1.0.16-pulp-riscv-gcc-ubuntu-18.tar.bz2
 rm v1.0.16-pulp-riscv-gcc-ubuntu-18.tar.bz2
 
 echo "Configuring environment..."
-source myenv/bin/activate
-export PULP_RISCV_GCC_TOOLCHAIN=$HOME/v1.0.16-pulp-riscv-gcc-ubuntu-18
+export PULP_RISCV_GCC_TOOLCHAIN=$(pwd)/v1.0.16-pulp-riscv-gcc-ubuntu-18
 cd pulp-sdk
 source configs/pulp-open.sh
 
