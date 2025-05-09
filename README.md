@@ -26,9 +26,11 @@ Before proceeding, ensure that:
 - You have internet access to download dependencies.
 
 ### Installation Instructions
-To install all required components, start by cloning the repo, then simply execute the following command in your terminal in the repo folder:
+To install all required components, simply execute the following command in your terminal:
 
 ~~~~~shell
+git clone https://github.com/jRxcky/Crypto-on-PULP.git
+cd Crypto-on-PULP
 chmod +x ./setup_pulp.sh
 ./setup_pulp.sh
 ~~~~~
