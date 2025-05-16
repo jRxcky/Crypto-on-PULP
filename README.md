@@ -38,6 +38,7 @@ chmod +x ./setup_pulp.sh
 The next times you access the terminal, just run (inside the repo folder):
 
 ~~~~~shell
+source myenv/bin/activate
 export PULP_RISCV_GCC_TOOLCHAIN=$(pwd)/v1.0.16-pulp-riscv-gcc-ubuntu-18
 cd pulp-sdk
 source configs/pulp-open.sh
